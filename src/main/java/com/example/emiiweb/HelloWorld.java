@@ -10,4 +10,9 @@ public class HelloWorld {
     public String hello() {
         return "Hello World";
     }
+
+    @GetMapping("hello2")
+    public String hello2() {
+        return "Hello World but with anger!";
+    }
 }
